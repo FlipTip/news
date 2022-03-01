@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="de"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +5,30 @@
 .iframe {
   width:100vw;
   max-width: 90vmin;
-  height: 90vh;
-}
-body {
-  width: 500%;
+  height: 98vh;
+  flex-shrink: 0;
+  padding-bottom: -0px;
 }
 
+div {
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+
+body {
+  overflow-y: hidden;
+}
 </style>
   </head>
   <body>
-<p>Aktuelle Lage</p>
+<div>
     <iframe class="iframe" src="https://amp.zdf.de/nachrichten/politik/kiew-russland-ukraine-krieg-100.html" allowfullscreen="" frameborder="0"></iframe>
     <iframe class="iframe" src="https://amp.zdf.de/nachrichten/politik/russland-kiew-charkiw-ukraine-krieg-100.html" allowfullscreen="" frameborder="0"></iframe>
     <iframe class="iframe" src="https://amp.zdf.de/nachrichten/politik/ukraine-krieg-russland-lage-100.html" allowfullscreen="" frameborder="0"></iframe>
     <iframe class="iframe" src="https://amp.zdf.de/nachrichten/politik/kampf-kiew-ukraine-krieg-100.html" frameborder="0"></iframe>
     <iframe class="iframe" src="https://amp.zdf.de/nachrichten/politik/ukraine-russland-krieg-kiew-100.html" frameborder="0"></iframe>
+</div>
 
-  
 
 </body></html>
