@@ -1,0 +1,40 @@
+<html><head>
+<style>
+#myDIV {
+  height:98vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  
+  
+}
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: right;
+}
+
+#myDIV iframe {
+  width: 100%
+}
+
+.item1 {
+  grid-row: 1 / span 3;
+  height: 98vh;
+}
+
+.vid {
+  height: 49vh;
+}
+</style>
+</head>
+<body>
+
+<div id="myDIV">
+
+  <div class="item1"><iframe class="item1" src="https://liveblog.zdf.de/aktuelles-zum-ukraine-konflikt" allowfullscreen="" width="100%" frameborder="0"></iframe></div>
+  
+  <div class="vid"><iframe src="https://ngp.zdf.de/miniplayer/embed/?mediaID=%2Fzdf%2Fsender%2Fphoenix%2Fphoenix-live-beitrag-100" allowfullscreen="" width="640" height="100%" frameborder="0"></iframe></div>
+  <div class="vid"><iframe src="https://ngp.zdf.de/miniplayer/embed/?mediaID=%2Fzdf%2Fnachrichten%2Fpolitik%2Fukraine-russland-konflikt-blog-100" allowfullscreen="" width="640" height="100%" frameborder="0"></iframe></div>
+  </div>
+
+
+</body></html>
