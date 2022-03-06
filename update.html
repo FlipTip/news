@@ -3,7 +3,7 @@
 #myDIV {
   height:98vh;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto max-content;
   
   
 }
@@ -19,10 +19,13 @@
 .item1 {
   grid-row: 1 / span 3;
   height: 98vh;
+  width: 100%;
 }
 
 .vid {
   height: 49vh;
+  width: 60vw;
+  max-width: 640px;
 }
 </style>
 </head>
