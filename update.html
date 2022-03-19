@@ -1,6 +1,5 @@
 <html><head>
 <style>
-
 #myDIV {
   display: grid;
   grid-template-columns: auto max-content;
@@ -20,17 +19,18 @@
   grid-row: 1 / span 3;
   height: 100vh;
   width: 100%;
+  min-width: 100vmin;
+  overflow: hidden;
 }
 
-.vid {
+.vid, img {
   height: 50vh;
-  width: 60vw;
+  width: 70vmin;
   max-width: 640px;
 }
 
 body {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
   margin: -1;
 }
 </style>
