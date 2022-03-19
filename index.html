@@ -12,6 +12,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="mobile-web-app-status-bar-style" content="black">
 <style>
+
 #myDIV {
   display: grid;
   grid-template-columns: auto max-content;
@@ -31,8 +32,7 @@
   grid-row: 1 / span 3;
   height: 100vh;
   width: 100%;
-  min-width: 100vmin;
-  overflow: hidden;
+min-width: 100vmin;
 }
 
 .vid, img {
@@ -42,7 +42,8 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
   margin: -1;
 }
 </style>
@@ -54,9 +55,8 @@ body {
   <div class="item1"><iframe class="item1" src="https://liveblog.zdf.de/aktuelles-zum-ukraine-konflikt" allowfullscreen="" width="100%" frameborder="0"></iframe></div>
 
   <div class="vid"><iframe src="https://ngp.zdf.de/miniplayer/embed/?mediaID=%2Fzdf%2Fsender%2Fphoenix%2Fphoenix-live-beitrag-100" allowfullscreen="" width="640" height="100%" frameborder="0"></iframe></div>
-  <div class="vid"><a href="https://upload.wikimedia.org/wikipedia/commons/4/4f/2022_Russian_invasion_of_Ukraine.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/2022_Russian_invasion_of_Ukraine.svg"></a></div>
+  <div class="vid"><iframe src="https://ngp.zdf.de/miniplayer/embed/?mediaID=%2Fzdf%2Fnachrichten%2Fpolitik%2Fukraine-russland-konflikt-blog-100" allowfullscreen="" width="640" height="100%" frameborder="0"></iframe></div>
   </div>
-
 
 
 </body></html>
