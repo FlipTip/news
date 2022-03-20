@@ -13,7 +13,6 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="mobile-web-app-status-bar-style" content="black">
 <style>
-
 #myDIV {
   display: grid;
   grid-template-columns: auto max-content;
@@ -33,19 +32,18 @@
   grid-row: 1 / span 3;
   height: 100vh;
   width: 100%;
-min-width: 100vmin;
+  min-width: 100vmin;
 }
 
 .vid, img {
   height: 50vh;
-  width: 70vmin;
-  max-width: 640px;
+  min-width: 70vmin;
+  max-width: 100vw;
 }
 
 body {
-  overflow-x: hidden;
   overflow-y: hidden;
-  margin: -1;
+  margin: 0;
 }
 </style>
 </head>
